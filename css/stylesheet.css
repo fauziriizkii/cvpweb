@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: rgb(147, 112, 43);
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+}
+.wrapper_profile{
+    background-color: rgba(84, 16, 16, 0.959);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+.photo_name{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: rgb(1, 53, 22);
+    border-radius: 10px;
+}
+.photo_name img{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    float: center;
+}
+.photo_name h1{
+    padding: 40px 50px;
+    float: left;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+.detail_profile p{
+    margin-block-start: 2px;
+}
+.hobbies{
+    width: 100%;
+    background-color: rgb(25, 79, 52);
+    margin-top: 5px;
+    float: left;
+}
+
+.hobbies h3{
+    text-align: center;
+    background-color: rgb(210, 208, 139);
+    padding:  20px;
+    margin: 0;
+}
+.flex_box{
+    display: flex;
+}
+.flex_box li{
+    flex: auto;
+    list-style: none;
+    padding: 30px;
+    color: rgb(230, 192, 117);
+}
+.flex_box h4{
+    text-align: center;
+    color: rgb(147, 112, 43);
+}
+.skills_experience{
+    width: 100%;
+    background-color: rgb(181, 169, 63, 0.9);
+    margin-top: 5px;
+    float: left;
+}
+.skills{
+    float: left;
+    width: 50%;
+    border-right: rgb(59, 103, 59);
+    border-style: none solid none none;
+    padding: 20px;
+}
+.experiences{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.skills h3{
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+}
+.skill{
+    float: left;
+}
+.skill img{
+    float: right;
+    width: 50px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.skill_desc{
+    float: right;
+    width: 70%;
+}
+
+.skill_desc h4{
+    float: right;
+    text-align: right;
+    margin: 10px;
+    width: 60%;
+}
+.skill_desc p{
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+.experiences h3{
+    float: left;
+    width:100%;
+    text-align: left;
+    padding: 20px 0px 30px 20px;
+    margin: 0px;
+}
+.experiences h4{
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+.experiences p{
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+.educations{
+    width: 100%;
+    background-color: rgb(127, 78, 82);
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.educations h3{
+    text-align: center;
+    background-color: rgb(53, 114, 115);
+    padding:  20px;
+    margin: 0;
+
+}
+.container{
+    color: blue;
+    margin: 20px auto;
+    width: 40%;
+}
+.edu_left{
+    color: beige;
+    float: left;
+    width: 100%;
+    border-color: rgb(150, 130, 61);
+    border-style: solid none solid solid;
+    padding:10px;
+    text-align: left;
+}
+.edu_right{
+    color: beige;
+    float: left;
+    width: 100%;
+    border-color: rgb(150, 130, 61);
+    border-style: none solid none none;
+    padding:10px;
+    text-align: right;
+}
+
+.courses{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.courses h3{
+    text-align: center;
+    background-color: rgba(181, 169, 63, 0.9);
+    margin: 0px;
+    padding:15px;
+}
+.course{
+    width: 50%;
+    height: 90px;
+    background-color: rgba(181, 169, 63, 0.9);
+    float: left;
+}
+.course h4, .course p{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+.footer{
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-position-y: center;
+    height: 120px;
+    float: left;
+    width: 100%;
+    padding: 20px 30px;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.listfooter ul{
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.listfooter li{
+    height: 24px;
+    list-style: none;
+    margin: 5px;
+}
+.footer h2{
+    float: left;
+}
+.footer a{
+    float: left;
+    color: darkblue;
+    text-decoration: none;
+
+}
+.footer img{
+    float: left;
+    margin-right: 5px;
+
+}
